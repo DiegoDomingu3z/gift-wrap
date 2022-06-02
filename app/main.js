@@ -1,4 +1,5 @@
 import { GiftsController } from "./Controllers/GiftsController.js";
+import { SandboxController } from "./Controllers/SandboxController.js";
 import { ValuesController } from "./Controllers/ValuesController.js";
 
 class App {
@@ -6,6 +7,10 @@ class App {
 
 
   giftsController = new GiftsController()
+
+  sandboxService = new SandboxController()
+  
+
 }
 
 window["app"] = new App();
