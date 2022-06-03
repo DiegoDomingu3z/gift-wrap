@@ -8,7 +8,7 @@ class App {
 
   giftsController = new GiftsController()
 
-  sandboxService = new SandboxController()
+  sandboxController = new SandboxController()
   
 
 }

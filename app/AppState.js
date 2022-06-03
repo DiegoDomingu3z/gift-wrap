@@ -9,6 +9,10 @@ class AppState extends EventEmitter {
 
 
   gifts = []
+
+  /** @type {import('./Models/Present').Present[]]} */
+
+  presents = []
 }
 
 export const ProxyState = new Proxy(new AppState(), {
