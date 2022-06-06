@@ -24,8 +24,8 @@ class SandboxService {
             url: url,
             tag: tag
           }
-          let submission = new Sandbox(data)
-          const res = await sandBoxApi.post('', submission)
+          let gift = new Sandbox(data)
+          const res = await sandBoxApi.post('', gift)
           console.log('postGift', res.data);
     }
 
